@@ -55,6 +55,6 @@ document.getElementById("checkout-form").addEventListener("submit", function (ev
     document.getElementById("close-button").onclick = function () {
       messageBox.classList.add("display-none");
       overlay.classList.add("display-none");
-      window.location.href = "/";
+      window.location.href = "/index.html";
     };
 });
